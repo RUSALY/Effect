@@ -1,0 +1,22 @@
+.search{
+    display: flex;
+ justify-content: center;
+ color: white;
+}
+.search >form{
+    width: 80%;
+    height: 3rem;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    display: flex;
+ justify-content: center;
+ align-items: center;
+ border: 2px solid whitesmoke;
+}
+
+.search>form>input{
+   
+    border: none;
+
+   
+}

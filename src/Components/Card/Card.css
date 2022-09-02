@@ -1,0 +1,9 @@
+.cd{
+    border: 2px solid  aliceblue;
+    color: aliceblue;
+    margin-top: 2rem;
+}
+.justify-content-center{
+    justify-content: center;
+    align-items: center;
+}

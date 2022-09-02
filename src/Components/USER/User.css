@@ -1,0 +1,21 @@
+.user{
+    border: 2px solid whitesmoke;
+    background-color:#FFFFFF;
+    padding: 2rem;
+
+}
+.userintro{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.userintro > img{
+   width: 25%;
+   border-radius: 50%;
+}
+
+.userintro button {
+    width: 4rem;
+    height: 2rem;
+}
