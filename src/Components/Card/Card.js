@@ -23,7 +23,9 @@ const Card = ({user, setUser}) => {
                     <div className="cd">
                         <Row>
                             <Col md={4} className="d-flex justify-content-center">
-                                <RiGitRepositoryCommitsLine/>
+                               <div  className="icondiv icondiv1" >
+                                 <RiGitRepositoryCommitsLine/>
+                               </ div>
                             </Col>
                             <Col md={6}>
                                 <h4>{user.public_repos}</h4>
@@ -39,7 +41,9 @@ const Card = ({user, setUser}) => {
                     <div className="cd">
                         <Row>
                             <Col md={4} className="d-flex justify-content-center">
-                                <GiShadowFollower/>
+                                <div className="icondiv icondiv2">
+                                        <GiShadowFollower/>
+                                </div>
                             </Col>
                             <Col md={6}>
                                 <h4>{user.following}</h4>
@@ -57,7 +61,9 @@ const Card = ({user, setUser}) => {
                     <div className="cd">
                         <Row>
                             <Col md={4} className="d-flex justify-content-center">
-                                <RiUserFollowLine/>
+                                <div className="icondiv icondiv3">
+                                    <RiUserFollowLine/>
+                                </div>
                             </Col>
                             <Col md={6}>
                                 <h4>{user.followers}</h4>
@@ -73,7 +79,9 @@ const Card = ({user, setUser}) => {
                     <div className="cd">
                         <Row>
                             <Col md={4} className="d-flex justify-content-center">
-                                <VscGistSecret/>
+                                <div className="icondiv icondiv4">
+                                    <VscGistSecret/>
+                                </div>
                             </Col>
                             <Col md={6}>
                                 <h4>{user.public_gists}</h4>

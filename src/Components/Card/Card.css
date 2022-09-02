@@ -1,9 +1,35 @@
 .cd{
-    border: 2px solid  aliceblue;
+    border: 2px solid #D3D3D3;
+    background-color:#FFFFFF;
     color: aliceblue;
     margin-top: 2rem;
+    color: black;
 }
 .justify-content-center{
     justify-content: center;
     align-items: center;
+}
+
+.icondiv {
+    
+    
+    height: 2rem;
+    width: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.icondiv1 {
+    background-color: cyan;
+}
+.icondiv2 {
+    background-color: #fc9de8;
+}
+.icondiv3 {
+    background-color: #78f578;
+}
+.icondiv4 {
+    background-color:#fcd55d;
 }

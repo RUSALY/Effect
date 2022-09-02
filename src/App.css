@@ -29,5 +29,12 @@
 } */
 
 
-body{
-  background-color: black !important;}
+.fullpage{
+  
+  background-image: url(./Assets/bodypic.jpg);
+  height: 100%; 
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}

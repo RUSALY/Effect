@@ -1,8 +1,13 @@
+
+
 .search{
     display: flex;
  justify-content: center;
- color: white;
+ color: Black;
+ /* background-image: url('../../Assets/search.jpg'); */
+ 
 }
+
 .search >form{
     width: 80%;
     height: 3rem;
@@ -11,12 +16,14 @@
     display: flex;
  justify-content: center;
  align-items: center;
- border: 2px solid whitesmoke;
+ background-image: url('../../Assets/search.jpg');
 }
 
 .search>form>input{
    
     border: none;
+    border: 2px solid #D3D3D3;
+    width: 50%;
 
    
 }

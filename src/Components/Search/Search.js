@@ -1,7 +1,9 @@
 import React, {useState} from 'react';
+import { Container } from 'react-bootstrap';
 
 import "./Search.css";
 import { BiSearch } from 'react-icons/bi';
+import search from "../../Assets/search.jpg"
 
 
 
@@ -23,13 +25,15 @@ const Search = ({setUsername}) => {
 
     return (
       
-         <div className="search">
-            <form onSubmit={getInputdata} > 
-              <BiSearch/>
-              <input onChange={getdata} value={userInput} type="text" />
-              <button   type='submit'>Search</button>
-            </form>
-          </div>
+         <Container>
+          <div className="search" >
+             <form onSubmit={getInputdata} > 
+               <BiSearch/>
+               <input onChange={getdata} value={userInput} type="text" />
+               <button   type='submit'>Search</button>
+             </form>
+           </div>
+         </Container>
           
 
   );

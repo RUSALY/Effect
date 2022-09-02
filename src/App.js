@@ -14,11 +14,11 @@ function App() {
 
 
   return (
-    <>
-    <Search setUsername={setUsername}/>
-    <Card user={user} setUser={setUser}/>
-    <User username={username} user={user} setUser={setUser}/>
-    </>
+    < div className="fullpage">
+        <Search setUsername={setUsername}/>
+        <Card user={user} setUser={setUser}/>
+        <User username={username} user={user} setUser={setUser}/>
+    </div>
   )
 }
 
