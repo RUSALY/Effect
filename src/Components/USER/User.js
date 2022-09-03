@@ -1,27 +1,26 @@
-import React, { useEffect , useState} from 'react';
+import React, { useEffect} from 'react';
 import { Row, Col ,Container } from 'react-bootstrap';
 import "./User.css";
 import {HiOutlineLocationMarker} from 'react-icons/hi';
 import {BsBuilding}from 'react-icons/bs';
 import {FiLink} from 'react-icons/fi';
 
-const User = ({username,user, setUser}) => {
+const User = ({username, user, setUser}) => {
      
      
    
    
         useEffect(()=>{
-            async function handleData (){
+            async function handleData () {
                 const result = await fetch (`https://api.github.com/users/${username}`)
                 const data = await result.json()
                 setUser(data)
 
             }
             handleData()
+   },[username] )
+   
 
-            
-
-   } , [])
 
 
 

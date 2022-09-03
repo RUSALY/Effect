@@ -13,9 +13,9 @@ const Search = ({setUsername}) => {
   
   const getdata =(event)=>{
     setUserInput(event.target.vlaue)
-
-
   }
+
+  
   const getInputdata=(event)=>{
     event.preventDefault()
     setUsername(userInput)                                    
@@ -29,7 +29,7 @@ const Search = ({setUsername}) => {
           <div className="search" >
              <form onSubmit={getInputdata} > 
                <BiSearch/>
-               <input onChange={getdata} value={userInput} type="text" />
+               <input onChange={getdata} value={userInput}  type="text" />
                <button   type='submit'>Search</button>
              </form>
            </div>
